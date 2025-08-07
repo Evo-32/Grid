@@ -1,8 +1,19 @@
+
+
+
+html ,body{
+    height: 100%;
+    box-sizing: border-box;
+    padding: 10px;
+}
+
 .container{
     border:3px solid goldenrod;
     display: flex;
     /* flex-direction:row; */
     /* justify-content: flex-end; */
+    height: 100%;
+    align-items:flex-start;
 }
 
 /* .search{
@@ -16,9 +27,12 @@
 
     flex-grow, flex-shrink, flex-basis
   } */
- .home{
+ /* .home{
     flex: 1;
   }
   .logout{
     flex:1
-  }
+  } */
+   .home{
+    align-self:flex-end;
+   }
