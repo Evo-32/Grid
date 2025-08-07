@@ -14,10 +14,14 @@ html ,body{
     /* justify-content: flex-end; */
     /* height: 100%;
     align-items:flex-start; */
-    flex-direction:column;
-    justify-content:flex-end; 
+    /* flex-direction:column;
+    justify-content:flex-end;  */
+    flex-wrap: wrap;
 }
 
+.container > div{
+width: 300px;
+}
 /* .search{
     margin-left:auto;
 } */
