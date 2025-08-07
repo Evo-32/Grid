@@ -16,7 +16,7 @@ html ,body{
     align-items:flex-start; */
     /* flex-direction:column;
     justify-content:flex-end;  */
-    flex-wrap: wrap;
+    /* flex-wrap: wrap; */
 }
 
 .container > div{
@@ -37,8 +37,17 @@ width: 300px;
     flex: 1;
   }
   .logout{
-    flex:1
+    flex:10 1 200px;
   } */
    /* .home{
     align-self:flex-end;
    } */
+    .search{
+        order: 0;
+    }
+    .home{
+        order: 1;
+    }
+    .logout{
+        order:-1;
+    }
